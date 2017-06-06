@@ -5,7 +5,7 @@ body {
 	font-family: 'Montserrat', sans-serif;
 }
 .navbar{
-	background-color: pink;
+	background-color: #CC6666;
 	width: 100%;
 	color: #fff;
 }
@@ -25,7 +25,14 @@ ul li a{
 	cursor: pointer;
 }
 ul li{
-    display: inline-block;
-    border-right: 2px solid white;
+	display: inline-block;
+	border-right: 2px solid white;
 }
 
+ul li:hover{
+	background-color: #FFCCCC;
+}
+
+ul li:last-child {
+	border-right: 2px #CC6666;
+}
